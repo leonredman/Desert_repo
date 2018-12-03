@@ -1,5 +1,9 @@
-$bg-color: grey;
+$bg-color: white;
 
 body {
     background: $bg-color;
 }
+
+.jumbotron img{
+  width:100%;
+  }

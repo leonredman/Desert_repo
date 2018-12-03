@@ -1,2 +1,5 @@
 body {
-  background: grey; }
+  background: white; }
+
+.jumbotron img {
+  width: 100%; }
