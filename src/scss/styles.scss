@@ -4,6 +4,13 @@ body {
     background: $bg-color;
 }
 
-.jumbotron img{
-  width:100%;
+  #hero {
+     background: url('/assets/images/hero1.jpg') no-repeat;
+     background-size:cover;
+     // background-position:0 60%;
+     height:40rem;
+ }
+  
+  .lead{
+    padding-top:6rem;
   }
