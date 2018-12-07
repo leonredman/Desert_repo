@@ -10,7 +10,14 @@ body {
      // background-position:0 60%;
      height:40rem;
  }
-  
+
   .lead{
     padding-top:6rem;
+  }
+
+  #about {
+    background: url('/assets/images/image2.jpg') no-repeat;
+    background-size: cover;
+    //filter: blur (28px);
+    height: 30rem;
   }
