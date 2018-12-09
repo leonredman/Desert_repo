@@ -1,115 +1,193 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-    <head>
-        <title>Bootstrap 4 Layout</title>
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!DOCTYPE html>
+  <html class="no-js" lang="en">
+      <head>
+          <title>Bootstrap 4 Layout</title>
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+  	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+          <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="/css/bootstrap.css">
+          <link rel="stylesheet" href="/css/styles.css">
+      </head>
 
-    <body>
+      <body>
 
+          <div class="container-fluid">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+       <a class="navbar-brand" href="#">CompanyName</a>
 
-        <div class="container-fluid">
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-     <a class="navbar-brand" href="#">CompanyName</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+           <span class="navbar-toggler-icon"></span>
+       </button>
 
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-         <span class="navbar-toggler-icon"></span>
-     </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                   <a class="nav-link" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+           Products
+       </a>
+       <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Product 1</a>
+           <a class="dropdown-item" href="#">Product 2</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="#">Another Product</a>
+       </div>
+              </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="/;;./#">Contact</a>
+               </li>
+           </ul>
+       </div>
+   </nav>
 
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-             <li class="nav-item">
-                 <a class="nav-link" href="#">Home</a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="#">About</a>
-             </li>
-             <li class="nav-item dropdown">
-     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-         Products
-     </a>
-     <div class="dropdown-menu">
-         <a class="dropdown-item" href="#">Product 1</a>
-         <a class="dropdown-item" href="#">Product 2</a>
-         <div class="dropdown-divider"></div>
-         <a class="dropdown-item" href="#">Another Product</a>
-     </div>
-            </li>
-             <li class="nav-item">
-                 <a class="nav-link" href="/;;./#">Contact</a>
-             </li>
-         </ul>
-     </div>
- </nav>
+    <div id="hero">
+      <div class="container-fluid">
+          <h1 class="display-3">Caring For Family.</h1>
+              <p class="lead">Kind words can be shot and eas to speak, but their echoes are truly endless.
+                  Desert Health focuses on our as if it was our own family.</p>
 
-  <div id="hero">
-    <div class="container-fluid">
-        <h1 class="display-4">Caring For Family.</h1>
-            <p class="lead">Kind words can be shot and eas to speak, but their echoes are truly endless.
-                Desert Health focuses on our as if it was our own family.</p>
-
-         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+           <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
     </div>
-  </div>
- <div class="row">
-     <div class="col-sm-12 col-md-4">
-         <div class="card  mb mt-4">
-             <div class="card-body text-center">
-                 <h5 class="card-title">QUALITY</h5>
-                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation</p>
-                 <a href="#" class="card-link">Another link</a>
-             </div>
-         </div>
-     </div>
-     <div class="col-sm-12 col-md-4">
-         <div class="card mt-4">
-             <div class="card-body text-center">
-                 <h5 class="card-title">EXPERIENCE</h5>
-                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation</p>
-                 <a href="#" class="card-link">Another link</a>
-             </div>
-         </div>
-     </div>
-     <div class="col-sm-12 col-md-4">
-         <div class="card mt-4">
-             <div class="card-body text-center">
-                 <h5 class="card-title">COMMITMENT</h5>
-                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation</p>
-                 <a href="#" class="card-link">Another link</a>
-             </div>
-         </div>
-     </div>
- </div>
-
- <div id="about">
-   <div class="container-fluid">
-       <h1 class="display-4">Personal Care.</h1>
-           <p class="lead">We dedicate a single Care Advisor to each of our patientes and contact them daily.<br>
-              Your patients may contact their Care Advisor at any time with questions or concerns.<br>
-               You can access our patient encounter records via your secure physician portal.<br>
-             Our Care Advisors provide the compassion, guidance and assurance your patients want and deserve.
-           </p>
-
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+   <div class="row">
+       <div class="col-sm-12 col-md-4">
+           <div class="card  mb mt-4">
+               <div class="card-body text-center">
+                   <h5 class="card-title">QUALITY</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation</p>
+                   <a href="#" class="card-link">Another link</a>
+               </div>
+           </div>
+       </div>
+       <div class="col-sm-12 col-md-4">
+           <div class="card mt-4">
+               <div class="card-body text-center">
+                   <h5 class="card-title">EXPERIENCE</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       Ut enim ad minim veniam, quis nostrud exercitation</p>
+                   <a href="#" class="card-link">Another link</a>
+               </div>
+           </div>
+       </div>
+       <div class="col-sm-12 col-md-4">
+           <div class="card mt-4">
+               <div class="card-body text-center">
+                   <h5 class="card-title">COMMITMENT</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation</p>
+                   <a href="#" class="card-link">Another link</a>
+               </div>
+           </div>
+       </div>
    </div>
- </div>
+
+   <div id="about">
+     <div class="container-fluid">
+         <h1 class="display-4">Personal Care.</h1>
+             <p class="lead1">We dedicate a single Care Advisor to each of our patientes and contact them daily.<br>
+                Your patients may contact their Care Advisor at any time with questions or concerns.<br>
+                 You can access our patient encounter records via your secure physician portal.<br>
+               Our Care Advisors provide the compassion, guidance and assurance your patients want and deserve.
+             </p>
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+     </div>
+   </div>
+        </div>
+
+
+   <div id="health">
+     <div class="container-fluid"></div>
+   </div>
+
+  <div  class="container-fluid">
+          <div class="row">
+          <div class="col-sm-12 col-md-4">
+              <div class="card bg-info mb mt-4">
+                  <div class="card-body text-center">
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                         Ut enim ad minim veniam, quis nostrud exercitation</p>
+                      <a href="#" class="card-link">Another link</a>
+                  </div>
+              </div>
+          </div>
+    <div class="col-sm-12 col-md-4">
+          <div class="card bg-info mb mt-4">
+              <div class="card-body text-center">
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation</p>
+                  <a href="#" class="card-link">Another link</a>
+              </div>
+          </div>
+    </div>
+          </div>
+
+    <div class="row">
+      <div id="caregiver">
+        <img src="/assets/images/elderly-care copy.jpg">
+      </div>
+          <p>A Desert Health Care, you will leverage your nursing skills while buildingmeaningful
+              relationships with your patients. With flexible work arrangements, you can set your
+              hours and even work from home. We welcome caregivers who are registered nurses and
+              who wish to join a team dedicated to setting a new standard of care
+              for patients recovering from surgery.</p>
+              <br> <br>
+              <p>Be part of a patient-centric, caring team of committed professionals
+                  Enjoy freedom of choice and flexibility
+                  Grow with us by caring for patients with skill and compassion</p>
+    </div>
+
+  </div>
+
+    <div class="container">
+      <h1 class="caregiver">OUR CAREGIVER RECOMMENDATIONS</h1>
+        <img src="/assets/images/caregiver1 copy.png">
+          <img src="/assets/images/caregiver2 copy.png">
+        <img src="/assets/images/caregiver3 copy.png">
+
+
+
+     <div class="row">
+       <div id="appointment">
+      <h1 class="contact">Make An Appointment</h1>
+
+      </div>
+    </div>
+
+
+        <div class="container-fluid bg-primary">
+            <img src="/assets/images/biology.png">
+              <img src="/assets/images/neurology.png">
+            <img src="/assets/images/pulmonary.png">
+        </div>
+
+               <div class="row">
+                 <div id="footer">
+                   <h4 class="contact">DESERT ROSE</h4>
+                    <h4 class="contact">CONTACT INFORMATION</h4>
+                   <h4 class="contact">MEDICAL DEPARTMENTS</h4>
+                 </div>
+              </div>
+
+
 
 </div>
-       </div>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-    </body>
-</html>
+</div>
+
+          <script src="/js/jquery.min.js"></script>
+          <script src="/js/popper.min.js"></script>
+          <script src="/js/bootstrap.min.js"></script>
+      </body>
+  </html>

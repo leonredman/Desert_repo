@@ -1,23 +1,72 @@
-$bg-color: white;
+  $bg-color: white;
 
-body {
-    background: $bg-color;
-}
-
-  #hero {
-     background: url('/assets/images/hero1.jpg') no-repeat;
-     background-size:cover;
-     // background-position:0 60%;
-     height:40rem;
- }
-
-  .lead{
-    padding-top:6rem;
+  body {
+      background: $bg-color;
   }
 
-  #about {
-    background: url('/assets/images/image2.jpg') no-repeat;
-    background-size: cover;
-    //filter: blur (28px);
-    height: 30rem;
-  }
+    #hero {
+       background: url('/assets/images/hero1.jpg') no-repeat;
+       background-size:cover;
+       // background-position:0 60%;
+       height:40rem;
+   }
+
+    .lead{
+      padding:6rem;
+      width:70%;
+    }
+
+    #about {
+      background: url('/assets/images/image2.jpg') no-repeat;
+      background-size: cover;
+      //position:top-right;
+      //filter: blur(4px);
+      //object-fit:cover;
+      height: 30rem;
+      //width:100%;
+    }
+
+    .lead1{
+      padding:6rem;
+      background-color:white;
+      width:70%;
+    }
+
+    #health {
+      background: url('/assets/images/bee.jpg') no-repeat;
+      background-size: cover;
+      //filter: blur (28px);
+      height: 30rem;
+    }
+
+    #caregiver img {
+      width:45%;
+      margin-left: 10px;
+    }
+
+    .display-4 {
+      background-color:white;
+      width:45%;
+      top:50px;
+      position:relative;
+      top:100px;
+    }
+
+    #appointment{
+      background: url('/assets/images/contact.jpg') no-repeat;
+      background-size: cover;
+      //filter: blur (28px);
+      width: 100%;
+      height: 46em;
+    }
+
+
+    .contact img{
+      width: 100%;
+      height: 30rem;
+    }
+
+
+    #footer{
+      height: 20em;
+          }
