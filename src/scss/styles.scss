@@ -25,15 +25,16 @@
       height: 30rem;
       //width:100%;
       }
+
       #care img{
         width:600px;
       }
 
 
     .lead1{
-      padding:6rem;
+      // padding:6rem;
       background-color:white;
-      width:70%;
+      // width:70%;
     }
 
     #health {
@@ -50,11 +51,16 @@
 
     .display-4 {
       background-color:white;
-      width:45%;
-      top:50px;
-      position:relative;
-      top:100px;
+       width:100%;
+      // // top:50px;
+      // position:relative;
+      // top:100px;
     }
+
+    .column1{
+      background-color:white;
+    }
+
     .display-4 {
       color: #4dc1e5;
     }
