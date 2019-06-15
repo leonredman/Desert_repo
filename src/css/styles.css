@@ -1,22 +1,45 @@
 body {
   background: white; }
 
+.navbar {
+  height: 80px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #226e88; }
+
+.navbar-dark .navbar-brand {
+  color: #226e88; }
+
 #hero {
   background: url("/assets/images/81039.jpg") no-repeat;
   background-size: cover;
-  height: 60rem; }
+  background-position: 0 50%;
+  height: 45rem; }
 
 .lead {
   padding: 6rem;
   width: 70%; }
+
+.card {
+  position: relative;
+  top: -100px;
+  border-color: #4bc0eb;
+  border-width: 3px;
+  border-radius: 10%;
+  width: 60%;
+  height: 120%; }
+
+.card h5 {
+  color: #4bc0eb; }
 
 #about {
   background: url("/assets/images/image2.jpg") no-repeat;
   background-size: cover;
   height: 30rem; }
 
-.column1 col-6 {
-  background-color: white; }
+.col-6 {
+  background-color: white;
+  max-width: 20%; }
 
 #care img {
   width: 600px; }
@@ -72,3 +95,12 @@ body {
 
 #footer {
   height: 20em; }
+
+.bg-info2 {
+  background-color: #a8cddd;
+  color: white;
+  height: 250px;
+  width: 400px;
+  border-radius: 5%;
+  position: relative;
+  top: -100px; }
