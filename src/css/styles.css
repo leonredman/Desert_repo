@@ -2,9 +2,73 @@ body {
   background: white; }
 
 #hero {
-  background: url("/assets/images/hero1.jpg") no-repeat;
+  background: url("/assets/images/81039.jpg") no-repeat;
   background-size: cover;
-  height: 40rem; }
+  height: 60rem; }
 
 .lead {
-  padding-top: 6rem; }
+  padding: 6rem;
+  width: 70%; }
+
+#about {
+  background: url("/assets/images/image2.jpg") no-repeat;
+  background-size: cover;
+  height: 30rem; }
+
+.column1 col-6 {
+  background-color: white; }
+
+#care img {
+  width: 600px; }
+
+#health {
+  background: url("/assets/images/bee.jpg") no-repeat;
+  background-size: cover;
+  height: 30rem; }
+
+#caregiver img {
+  width: 45%;
+  margin-left: 10px; }
+
+.display-4 {
+  width: 100%; }
+
+.display-4 {
+  color: #4dc1e5; }
+
+.display-3 {
+  color: #4dc1e5;
+  left: 100px;
+  position: relative;
+  top: 100px; }
+
+#appointment {
+  background: url("/assets/images/contact.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 46em; }
+
+.caregiver {
+  color: #4dc1e5; }
+
+.staff-images img {
+  height: 275px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px inset #CBF7F0; }
+
+.background {
+  display: flex;
+  width: 800px;
+  height: 900px;
+  background-color: red; }
+
+.contact img {
+  width: 100%;
+  height: 30rem; }
+
+.contact {
+  color: #4dc1e4; }
+
+#footer {
+  height: 20em; }
