@@ -35,19 +35,24 @@ body {
 #about {
   background: url("/assets/images/image2.jpg") no-repeat;
   background-size: cover;
-  height: 30rem; }
+  height: 35rem; }
 
 .col-6 {
+  position: relative;
+  top: 80px;
+  left: 250px;
   background-color: white;
-  max-width: 20%; }
+  max-width: 35%; }
 
 #care img {
-  width: 600px; }
+  width: 600px;
+  margin-top: 20px; }
 
 #health {
   background: url("/assets/images/bee.jpg") no-repeat;
   background-size: cover;
-  height: 30rem; }
+  height: 40rem;
+  background-position: 0 30%; }
 
 #caregiver img {
   width: 45%;
