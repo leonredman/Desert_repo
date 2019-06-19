@@ -18,7 +18,11 @@ body {
 
 .lead {
   padding: 6rem;
-  width: 70%; }
+  width: 70%;
+  font-size: 1.7rem;
+  font-weight: 400;
+  width: 45%;
+  color: white; }
 
 .card {
   position: relative;
@@ -55,8 +59,14 @@ body {
   background-position: 0 30%; }
 
 #caregiver img {
-  width: 45%;
-  margin-left: 10px; }
+  width: 65%;
+  margin-left: 100px; }
+
+.nurse1 p {
+  position: relative;
+  right: 10%;
+  width: 90%;
+  top: 25%; }
 
 .display-4 {
   width: 100%; }
@@ -77,7 +87,9 @@ body {
   height: 46em; }
 
 .caregiver {
-  color: #4dc1e5; }
+  color: #4dc1e5;
+  margin-top: 10%;
+  margin-bottom: 5%; }
 
 .staff-images img {
   height: 275px;
