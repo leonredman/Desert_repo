@@ -11,18 +11,34 @@ body {
   color: #226e88; }
 
 #hero {
-  background: url("/assets/images/81039.jpg") no-repeat;
+  background: url("/assets/images/hero2.jpg") no-repeat;
   background-size: cover;
   background-position: 0 50%;
   height: 45rem; }
+
+.hero-cta {
+  padding-top: 100px;
+  padding-left: 100px; }
 
 .lead {
   padding: 6rem;
   width: 70%;
   font-size: 1.7rem;
   font-weight: 400;
-  width: 45%;
+  width: 55%;
   color: white; }
+
+.btn-lg {
+  margin-left: 5%;
+  position: relative;
+  margin-left: 5%;
+  bottom: 80px;
+  width: 250px;
+  background-color: #4DC1E5;
+  color: white; }
+
+.display-3 h1 {
+  top: 300px; }
 
 .card {
   position: relative;
