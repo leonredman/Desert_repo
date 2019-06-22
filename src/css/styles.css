@@ -40,9 +40,27 @@ body {
 .display-3 h1 {
   top: 300px; }
 
+.row-value-cards {
+  display: flex; }
+
+.quality-card {
+  margin-left: 18%; }
+
+.commitment-card {
+  margin-left: -10%; }
+
+.experience-card {
+  margin-left: -10%; }
+
+.col-md4 {
+  margin-right: -6%; }
+
+.text-center {
+  padding-top: 20%; }
+
 .card {
   position: relative;
-  top: -100px;
+  top: -120px;
   border-color: #4bc0eb;
   border-width: 3px;
   border-radius: 10%;
