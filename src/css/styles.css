@@ -73,7 +73,16 @@ body {
 #about {
   background: url("/assets/images/image2.jpg") no-repeat;
   background-size: cover;
-  height: 35rem; }
+  height: 40rem; }
+
+#care img {
+  width: 650px;
+  position: relative;
+  left: 40px;
+  top: 30px; }
+
+.care-button {
+  margin-top: 15%; }
 
 .col-6 {
   position: relative;
@@ -82,9 +91,8 @@ body {
   background-color: white;
   max-width: 35%; }
 
-#care img {
-  width: 600px;
-  margin-top: 20px; }
+.lead1 {
+  padding-left: 8%; }
 
 #health {
   background: url("/assets/images/bee.jpg") no-repeat;
@@ -106,7 +114,9 @@ body {
   width: 100%; }
 
 .display-4 {
-  color: #4dc1e5; }
+  color: #4dc1e5;
+  padding-top: 15%;
+  padding-left: 8%; }
 
 .display-3 {
   color: #4dc1e5;
