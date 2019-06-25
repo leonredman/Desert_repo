@@ -1,15 +1,81 @@
+/*-------------------------------
+                TYPOGRAPHY
+    --------------------------------*/
 body {
   background: white; }
 
+/*--------------------------------
+                HEADER
+    ---------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
 .navbar {
   height: 80px; }
 
+/*-------------------------------
+                NAVIGATION
+    --------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
 .navbar-dark .navbar-nav .nav-link {
   color: #226e88; }
 
 .navbar-dark .navbar-brand {
   color: #226e88; }
 
+/*--------------------------------
+                BUTTONS
+    ----------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+.care-button {
+  margin-top: 15%; }
+
+.btn-lg {
+  margin-left: 5%;
+  position: relative;
+  margin-left: 5%;
+  bottom: 80px;
+  width: 250px;
+  background-color: #4DC1E5;
+  color: white; }
+
+/*----------------------------------
+                FOOTER
+    ---------------------------------*/
+/*---
+      Media queries? Y/N
+    ---*/
+#footer {
+  height: 20em; }
+
+.contact img {
+  width: 100%;
+  height: 30rem; }
+
+.contact {
+  color: #4dc1e4; }
+
+/*------------------------------
+                PAGE SPECIFIC
+    ---------------------------------*/
+/*---
+      PAGE NAME
+      Description of section
+      Media queries? Y/N
+    ---*/
+/*-------------------------------
+            LARGE SCREENS ONLY
+    ---------------------------------*/
+/*--------------------------------
+        TABLET SCREENS AND SMALLER
+    --------------------------------*/
+/*-------------------------------
+            MOBILE SCREENS ONLY
+    ---------------------------------*/
 #hero {
   background: url("/assets/images/hero2.jpg") no-repeat;
   background-size: cover;
@@ -26,15 +92,6 @@ body {
   font-size: 1.7rem;
   font-weight: 400;
   width: 55%;
-  color: white; }
-
-.btn-lg {
-  margin-left: 5%;
-  position: relative;
-  margin-left: 5%;
-  bottom: 80px;
-  width: 250px;
-  background-color: #4DC1E5;
   color: white; }
 
 .display-3 h1 {
@@ -80,9 +137,6 @@ body {
   position: relative;
   left: 40px;
   top: 30px; }
-
-.care-button {
-  margin-top: 15%; }
 
 .col-6 {
   position: relative;
@@ -146,16 +200,6 @@ body {
   width: 800px;
   height: 900px;
   background-color: red; }
-
-.contact img {
-  width: 100%;
-  height: 30rem; }
-
-.contact {
-  color: #4dc1e4; }
-
-#footer {
-  height: 20em; }
 
 .bg-info2 {
   background-color: #a8cddd;
