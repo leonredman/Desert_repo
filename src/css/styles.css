@@ -67,15 +67,6 @@ body {
       Description of section
       Media queries? Y/N
     ---*/
-/*-------------------------------
-            LARGE SCREENS ONLY
-    ---------------------------------*/
-/*--------------------------------
-        TABLET SCREENS AND SMALLER
-    --------------------------------*/
-/*-------------------------------
-            MOBILE SCREENS ONLY
-    ---------------------------------*/
 #hero {
   background: url("/assets/images/hero2.jpg") no-repeat;
   background-size: cover;
@@ -187,7 +178,7 @@ body {
 .caregiver {
   color: #4dc1e5;
   margin-top: 10%;
-  margin-bottom: 5%; }
+  margin-bottom: 10%; }
 
 .staff-images img {
   height: 275px;
@@ -209,3 +200,18 @@ body {
   border-radius: 5%;
   position: relative;
   top: -100px; }
+
+.appointment-border {
+  width: 100%;
+  height: 100px;
+  margin-top: 10%; }
+
+/*-------------------------------
+            LARGE SCREENS ONLY
+    ---------------------------------*/
+/*--------------------------------
+        TABLET SCREENS AND SMALLER
+    --------------------------------*/
+/*-------------------------------
+            MOBILE SCREENS ONLY
+    ---------------------------------*/
