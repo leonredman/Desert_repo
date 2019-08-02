@@ -103,6 +103,11 @@
       color:white;
     }
 
+    .btn-md {
+      background-color: #4DC1E5;
+      color: white;
+    }
+
 
     /*----------------------------------
                 FOOTER
@@ -163,20 +168,21 @@
         }
 
         .row-value-cards{
-          display: flex;
-        }
+          margin-top:-70px;
+          padding-bottom: 60px;
+         }
 
-        .quality-card {
-          margin-left: 18%;
-        }
+        // .quality-card {
+        //   margin-left: 18%;
+        // }
 
-        .commitment-card {
-          margin-left: -10%;
-        }
+        // .commitment-card {
+        //   margin-left: -10%;
+        // }
 
-        .experience-card {
-          margin-left: -10%;
-        }
+        // .experience-card {
+        //   margin-left: -10%;
+        // }
 
         .col-md4 {
           margin-right: -6%;
@@ -309,10 +315,13 @@
           background-color: #a8cddd;
           color: white;
           height: 250px;
-          width: 400px;
-          border-radius: 5%;
+          width: 50%;
+          border-radius: 3%;
           position: relative;
           top: -100px;
+          padding:40px 80px 0px;
+
+          text-align: left;
         }
 
         .appointment-border {
