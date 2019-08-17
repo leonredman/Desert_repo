@@ -298,9 +298,9 @@
         }
 
         #appointment{
-          background: url('/assets/images/contact.jpg') no-repeat;
+          background: url('/assets/images/contact2.jpg') no-repeat;
           background-size: cover;
-          opacity: .5;
+          // opacity: .5;
           //filter: blur (28px);
           width: 100%;
           height: 46em;
@@ -362,7 +362,17 @@
           margin-top: 10%;
         }
 
+        #appointment {
+          padding-left: 10%;
+          padding-top: 5%;
+        }
+        .form-control {
+              border: 2px solid #000000;
+        }
 
+        .col-7 {
+          max-width: 50.33%;
+        }
 
     /*-------------------------------
             LARGE SCREENS ONLY
